@@ -8,7 +8,7 @@ import Login from "./components/Login.jsx";
 import { Navigate, BrowserRouter as Router } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Signup from "./components/Signup.jsx";
-import GlobalProvider from "./context/globalProvider.jsx";
+import GlobalProvider from "./context/GlobalProvider.jsx";
 const App = () => {
   return (
     <Router>

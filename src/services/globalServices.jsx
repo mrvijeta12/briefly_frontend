@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "https://briefly-backend-git-main-vijeta-varmas-projects.vercel.app";
+  "https://briefly-backend-git-main-vijeta-varmas-projects.vercel.app/api";
 
 //! register
 

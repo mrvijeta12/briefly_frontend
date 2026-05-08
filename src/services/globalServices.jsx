@@ -2,6 +2,7 @@ import axios from "axios";
 
 const API =
   "https://briefly-backend-git-main-vijeta-varmas-projects.vercel.app/api";
+// "http://localhost:5000/api";
 
 //! register
 
@@ -37,7 +38,7 @@ export const getStoriesService = async (page, limit) => {
 
     return res.data;
   } catch (error) {
-    console.log("error:", error);
+    console.log("error:", error.message);
     throw new Error(error?.response?.data?.message || "Something went wrong");
   }
 };

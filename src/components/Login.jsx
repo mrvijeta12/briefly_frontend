@@ -27,7 +27,7 @@ function Login() {
     try {
       setLoading(true);
       const res = await loginUser(formData);
-      console.log(res);
+      // console.log(res);
       setUser(res.user);
       localStorage.setItem("token", res.token);
       localStorage.setItem("user", JSON.stringify(res.user));

@@ -15,7 +15,10 @@ const App = () => {
       <GlobalProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Story />} />
+          <Route path="/" element={<Navigate to="/stories" replace />} />
+
+          <Route path="/stories" element={<Story />} />
+
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Signup />} />
         </Routes>
